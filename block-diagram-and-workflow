@@ -1,0 +1,44 @@
++-------------+      +----------+      +-----------------------+
+| Register    | ---> | Login    | ---> | Enter Source &        |
+| (User signup|      | (Authentication) | Destination          |
++-------------+      +----------+      +-----------------------+
+                                             |
+                                             v
+                          +---------------------------------------+
+                          | Route Matching (ML & Heuristics)      |
+                          | - Finds nearby users (1-2 km)         |
+                          | - Identifies overlapping routes       |
+                          +---------------------------------------+
+                                             |
+                                             v
+                      +--------------------------------------------+
+                      | Show Routes & Nearby Users on Map           |
+                      | - Interactive map with user icons           |
+                      +--------------------------------------------+
+                                             |
+                                             v
+                      +--------------------------------------------+
+                      | Chat & Ride Sharing                         |
+                      | - Anonymous real-time chat                   |
+                      | - Coordinate ride & vehicle sharing         |
+                      +--------------------------------------------+
+                                             |
+                          +------------------+------------------+
+                          |                                     |
+                          v                                     v
+         +--------------------------------+      +---------------------------------------------------+
+         | Safety Measures (Optional)      |     | Arrival Notification                              |
+         | - Share Ride Status            |      | - Notify on destination arrival to trusted person |
+         | - Emergency Button             |      +---------------------------------------------------+
+         | - Route Deviation Alerts       |
+         | - Verification Codes           |
+         +--------------------------------+
+                          |
+                          v
+         +------------------------------------------------+
+         | Rewards & Environmental Impact Features         |
+         | - Carbon Footprint Reduction Points              |
+         | - CO₂ Emission Savings Calculator                 |
+         | - Monthly Environmental Impact Reports            |
+         | - Group Achievements for Sustainable Commuting   |
+         +------------------------------------------------+
