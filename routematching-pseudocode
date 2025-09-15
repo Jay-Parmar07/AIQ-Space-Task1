@@ -1,0 +1,10 @@
+function areRoutesOverlapping(routeA, routeB, threshold = 1 /* km */) {
+  for (let pointA of routeA) {
+    for (let pointB of routeB) {
+      if (distance(pointA, pointB) < threshold) {
+        return true; // Overlapping detected
+      }
+    }
+  }
+  return false;
+}
